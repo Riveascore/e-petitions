@@ -58,7 +58,7 @@ group :test do
   gem 'database_cleaner'
   gem 'capybara'
   gem 'poltergeist'
-  gem 'factory_bot_rails' '4.11'
+  gem 'factory_bot_rails', '4.11'
   gem 'email_spec'
   gem 'launchy'
   gem 'webmock'
