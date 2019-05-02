@@ -59,6 +59,8 @@ group :test do
   gem 'launchy'
   gem 'webmock'
   gem 'test_after_commit'
+
+  gem 'simplecov', require: false
 end
 
 group :production do
