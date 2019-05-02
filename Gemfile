@@ -6,6 +6,8 @@ gem 'dotenv-rails', :require => 'dotenv/rails-now'
 gem 'rails', '4.2.11.1'
 
 gem 'rake'
+
+# leave
 gem 'pg', '< 0.21'
 gem 'authlogic'
 gem 'will_paginate'
@@ -35,6 +37,8 @@ gem 'paperclip', '~> 5.3'
 gem 'maxminddb'
 gem 'redcarpet'
 
+
+# leave
 gem 'aws-sdk', '~> 2.0'
 
 group :development, :test do
@@ -54,11 +58,13 @@ group :test do
   gem 'database_cleaner'
   gem 'capybara'
   gem 'poltergeist'
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '4.11'
   gem 'email_spec'
   gem 'launchy'
   gem 'webmock'
   gem 'test_after_commit'
+
+  gem 'simplecov', require: false
 end
 
 group :production do
